@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Credentials & local configs
+config.h
+*/config.h
+
+# Arduino / PlatformIO / Build artifacts
+build/
+*.bin
+*.elf
+*.hex
+*.partitions.bin
+*.bootloader.bin
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
